@@ -1,4 +1,4 @@
-/* EmployeeList.css */
+
 body{
   font-size: 10px;
   background: url("https://img.freepik.com/free-photo/abstract-dark-background-with-flowing-colouful-waves_1048-13124.jpg?semt=ais_hybrid")no-repeat center center fixed;
@@ -61,7 +61,7 @@ td {
   border-bottom: 1px solid #ddd;
 }
 
-/* Buttons inside table */
+
 .edit-btn, .delete-btn {
   padding: 2px 4px;
   margin: 5px;
