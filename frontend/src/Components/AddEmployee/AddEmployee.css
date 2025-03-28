@@ -1,0 +1,70 @@
+.container-addemployee {
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(240, 235, 235, 0.308);
+    
+  }
+  
+  h2 {
+    text-align: center;
+    color:white;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    width: 96%;
+    padding: 6px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 10px;
+    background-color: transparent;
+    color: white;
+    
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  }
+  
+ .add-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: url("https://img.freepik.com/free-photo/abstract-dark-background-with-flowing-colouful-waves_1048-13124.jpg?semt=ais_hybrid")no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+ 
+  
+  @media (max-width: 600px) {
+    .container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    input {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  }
+  
